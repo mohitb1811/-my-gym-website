@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohit Fitness gym</title>
+
+</head>
+<link href="link rel=" preconnect href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100&family=Merriweather+Sans&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<style>
+    body{
+background-color: black;
+        font-family: 'Exo 2', sans-serif;
+        font-family: 'Merriweather Sans', sans-serif;
+        margin: 0px;
+        padding: 0px;
+       
+        background: url('img/hi.jpg') no-repeat center/cover ;
+
+    }
+    .form{
+        flex-direction: column;
+    }
+
+    .left {
+        display: inline-block;
+
+        position: absolute;
+
+        top: 22px;
+        left: 32px;
+
+
+    }
+
+    .mid {
+        border: 2px solid#ede8e5;
+        border-style: dashed;
+        display: block;
+        width: 35%;
+        margin: 35px auto;
+    }
+
+    .navbar {
+        display: inline-block;
+        
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 18px;
+
+
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: white;
+        padding: 0px 3px;
+        margin: 2px 0px;
+    }
+
+    .navbar li:hover,
+    .navbar li.active {
+        /*text-decoration: underline;
+    color: rgb(241, 232, 232);
+*/
+        background-color: rgb(208, 199, 208);
+    }
+
+    .right {
+        position: absolute;
+
+        top: 22px;
+        right: 32px;
+        display: inline-block;
+        border: 2px solid rgb(242, 237, 237);
+        border-style: dashed;
+
+    }
+
+    .btn {
+        background-color: transparent;
+        color: white;
+        font-family:'Exo 2', sans-serif;
+        font-family: 'Merriweather Sans', sans-serif;
+        padding: 15px 10px;
+    }
+
+    .btn:hover {
+        background-color: rgb(208, 199, 208);
+    }
+
+    .left img {
+        padding: 0px 45px;
+        display: inline-block;
+        width: 123px;
+        font-family: 'Courier New', Courier, monospace;
+
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: 16px;
+        text-align: center;
+        font-style: italic;
+        color: aliceblue;
+
+    }
+
+    .form input {
+        display: flexbox;
+        font-family:'Exo 2', sans-serif;
+        font-family: 'Merriweather Sans', sans-serif;
+        text-align: center;
+        display: block;
+        border: 2px solid black;
+        border-radius: 10px;
+        height: 25px;
+        padding: 2px 10px;
+
+        width: 500px;
+        margin-top: 25px;
+        margin-left: 32%;
+    }
+
+    .container h2 {
+        text-align: center;
+        color: white;
+        font-size: 50px;
+    }
+
+    .container button {
+        display: block;
+        font-size: 20PX;
+        width: 523px;
+        margin-left: 32%;
+        margin-top: 30px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/ko.jpg">
+            <div>MOHIT'S GYMNASIUM </div>
+
+        </div>
+
+        <div class="mid">
+
+            <ul class="navbar">
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="https://www.google.com/">ABOUT US</a></li>
+                <li><a href="https://www.nhlbi.nih.gov/health/educational/lose_wt/BMI/bmicalc.htm">FITNESS
+                        CALCULATOR</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">RATE US</button>
+            <button class="btn">SUPPORT</button>
+
+        </div>
+
+    </header>
+    <div class="container">
+        <h2>JOIN US NOW!</h2>
+        <form action="nothing.php">
+            <div class="form">
+                <input type="text" name="text1" placeholder="Enter your name">
+            </div>
+
+            <div class="form">
+                <input type="text" name="text2" placeholder="Enter age">
+            </div>
+
+            <div class="form">
+                <input type="text" name="text3" placeholder="Enter your phone number">
+            </div>
+
+            <div class="form">
+                <input type="text" name="text4" placeholder="Enter your address">
+            </div>
+            <button class="btn">SUBMIT</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
